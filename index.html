@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet"href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div  class="carousel-item active">
+            <div>
+                <p class="text1">Rock Paper scissor Game</p>
+                <p class="text">Play</p><br>
+                <p class="text">with</p><br>
+                <p class="text">us</p>
+                <p class="text2">swipe to play</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+                  <p class="rules">How to play</p>
+                  <ul class="detail" type="square">
+                      <li> players click one of three hand icons by their choice.</li>
+                      <li>Computer randomly click one of three hand icons.</li>
+                      <li>Rock which is demonstrated by a fist.</li>
+                      <li>Scissors with two finger spread out to represent scissors. (This looks like a sideways peace sign.)</li>
+                     <li>Paper by holding out a palm down, flat hand.</li>
+                     <li>If players show the same things, they go again.</li>
+                     <li>If one player picks rock and one scissors, the player who showed rock wins the dispute. To explain this, say rock crushes scissors (no need to actually crush).</li>
+                     <li>If one player picks scissors and the other paper, the player who showed scissors succeeds. Scissors cuts paper.</li>
+                     <li>If a player shows paper while the other shows rock, the player who picked paper succeeds. Paper covers rock.</li>
+                     </ul>
+             </div>
+          <div class="carousel-item">
+  <header>
+      <h1>Rock Paper Scissors</h1>
+  </header>
+  <div class="score-board">
+      <div id="user-label">user</div>
+      <div id="computer-label">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+</div>
+<div class="result">
+    <p>Best of luck</p>
+</div>
+<div class="choices">
+    <div class="choice"id="rock">
+        <img src="https://img.icons8.com/color/96/000000/hand-rock.png"alt="Rock-image"/>
+    </div>
+    <div class="choice"id="paper">
+        <img src="https://img.icons8.com/color/96/000000/hand.png"alt="Paper-image"/>
+</div>
+<div class="choice"id="scissors">
+    <img src="https://img.icons8.com/color/96/000000/hand-scissors--v1.png"alt="Scissors-image"/> 
+</div>
+  </div>  
+  <p id="action-message">Make Your move</p>
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script></script>
+</body>
+</html>

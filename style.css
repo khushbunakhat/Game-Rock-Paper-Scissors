@@ -1,0 +1,120 @@
+.carousel-inner{
+    background-color:#24272E; 
+    width: 1300px;
+    height:700px; 
+  }
+  text1{
+    color:blue;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+  }
+  .text{
+    color: purple;
+    font-weight: bold;
+    font-size: 50px;
+    text-align:center;
+  }
+  .text2{
+    color:aqua;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .rules{
+    background:white;
+    color:#25272E;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 17px;
+  }
+  .detail{
+      margin-left: 40px;
+      margin-right:40px;
+      color:white;
+      font-size: 20px;
+  }
+
+/* body{
+    background-color:#24272E;
+} */
+header{
+    background:white;
+    padding:20px;
+}
+header > h1 {
+    color:#25272E;
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+}
+.score-board{
+    margin:20px auto;
+    border:3px solid white;
+    border-radius:4px;
+    text-align:center;
+    width:200px;
+    color:white;
+    font-size: 40px;
+    padding:15px 20px;
+    position:relative;
+}
+#user-label{
+    background:#E25840;
+    color:white;
+    font-size:14px;
+    padding:2px 10px;
+    position:absolute;
+    top:30px;
+    left:-25px;
+}
+#computer-label{
+    background:#E25840;
+    color:white;
+    font-size:14px;
+    padding:2px 10px;
+    position:absolute;
+    top:30px;
+    right:-25px;
+}
+.result {
+    color:white;
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.choices{
+    margin-top:50px;
+    text-align:center;   
+}
+.choice{
+    border:4px solid white;
+    border-radius:50px;
+    margin:10px;
+    padding:2px;
+    display:inline-block;
+}
+.choice:hover{
+    cursor:pointer;
+    background:rgba(0, 0, 0, 0.767);
+}
+#action-message{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px;
+}
+.green-glow{
+    border:4px solid green;
+    box-shadow:0 0 10px rgba(36, 128, 0, 0.589);
+}
+.red-glow{
+    border:4px solid red;
+    box-shadow:0 0 10px rgba(255, 0, 0, 0.603);
+}
+.gray-glow{
+    border:4px solid gray;
+    box-shadow:0 0 10px rgba(128, 128, 128, 0.726);
+}
