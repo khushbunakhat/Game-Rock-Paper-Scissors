@@ -11,6 +11,6 @@ CSS
 javascript
 
 # 3.Live Demo
-
+https://game-by-khushbunakhat.netlify.app/
 
 # 4.Image of website
