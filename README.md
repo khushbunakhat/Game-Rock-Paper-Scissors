@@ -14,3 +14,7 @@ javascript
 https://game-by-khushbunakhat.netlify.app/
 
 # 4.Image of website
+![image](https://user-images.githubusercontent.com/86652571/134869030-fac29d36-9b8e-4477-a401-130a57e79a3b.png)
+
+
+
